@@ -42,18 +42,21 @@ body{
 }
 .content_box {
     width: 50%;
-    padding: 30px;
+    padding: 20px;
     margin-top: 190px;
     border: 0;
     border-radius: 10px;
     background-color: coral;
     color: #dfdfdf;
     transition-duration: 0.5s;
+    position: relative;
 }
 .content_box span{
-    float: right;
-    color: cornflowerblue;
-    margin: -15px -18px 0 0;
+    position: absolute;
+    top: -17px;
+    right: 10px;
+    color: rgba(182, 7, 7);
+    font-size: 1.8rem;
     cursor: pointer;
 }
 .content_box p{
@@ -84,8 +87,9 @@ body{
     }
 
     .content_box span{
-        font-size: 1.5rem;
-        margin-top: -28px;
+        top: 2px;
+        right: 5px;
+        font-size: 1.3rem;
     }
 }
 
